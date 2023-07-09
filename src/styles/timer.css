@@ -1,0 +1,83 @@
+.timerCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 20px 30px 20px;
+  background-color: #adefd1ff;
+  border-radius: 10px;
+  margin: 100px auto 0 auto;
+  color: #00203fff;
+}
+
+.timerCon input {
+  width: 100%;
+  max-width: 50px;
+}
+
+.button-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+}
+
+.playStop {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.button-con button {
+  border: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: #00203fff;
+  background-color: transparent;
+  border: 2px solid #00203fff;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 100px;
+}
+
+.button-con button:hover {
+  color: #adefd1ff;
+  background-color: #00203fff;
+}
+
+.inputTime {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputTime label {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.inputs {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  min-width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .timerCon {
+    max-width: 300px;
+  }
+}
